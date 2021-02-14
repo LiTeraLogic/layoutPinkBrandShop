@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Single page</title>
+</head>
+<body>
+<header class="header">
+    <div class="container header-flex">
+        <div class="header-left">
+            <a class="logo" href="index.html">
+                <img class="logo-img" src="img/logo.png" alt="logo">BRAN<span class="logo-d">D</span>
+            </a>
+            <form class="form" action="#">
+                <div class="form-browses">
+                    <div class="form-browse"><p class="browse__text">Browse<span><i
+                            class="fas fa-caret-down browse__icon"></i></span></p></div>
+                    <div class="browse__drop">
+                        <div class="browse__drop-flex">
+                            <h3 class="browse__drop-h3">Woman</h3>
+                            <ul class="browse__drop-ul">
+                                <li ><p class="browse__drop-link">Dresses</p>
+                                </li>
+                                <li><p class="browse__drop-link">Tops</p>
+                                </li>
+                                <li><p class="browse__drop-link">Sweaters/Knits</p>
+                                </li>
+                                <li><p class="browse__drop-link">Jackets/Coats</p>
+                                </li>
+                                <li><p class="browse__drop-link">Blazers</p>
+                                </li>
+                                <li><p class="browse__drop-link">Denim</p>
+                                </li>
+                                <li><p class="browse__drop-link">Leggings/Pants</p>
+                                </li>
+                                <li><p class="browse__drop-link">Skirts/Shorts</p>
+                                </li>
+                                <li><p class="browse__drop-link">Accessories </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <input class="form-text" type="text" placeholder="Search for Item...">
+                <button class="form-button" type="submit"><i class="fas fa-search btn_search"></i></button>
+
+            </form>
+
+        </div>
+        <div class="header-right">
+            <div class="header-right__cart"><a href="shopping_cart.html"><img src="img/cart.svg" alt="cart"></a></div>
+
+
+
+            <a class="account__button" href="checkout.html">My Account<i class="triangle fas fa-caret-down account__icon"></i></a>
+            <div class=" header__cart ">
+                <div class="header__cart2">
+                    <div class="cart_flex cart__block border">
+                        <a href="#"><img src="img/cart_img_1.jpg" alt="product"></a>
+
+                        <div class="cart__product">
+                            <a class="header__cart_a" href="#">Rebox Zane</a>
+                            <div class="star-rating">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-51" type="radio" name="rating"
+                                           value="5">
+                                    <label class="star-rating__ico far fa-star fa-xs " for="star-rating-51"
+                                           title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-41" type="radio" name="rating"
+                                           value="4">
+                                    <label class="star-rating__ico far fa-star fa-xs" for="star-rating-41"
+                                           title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-31" type="radio" name="rating"
+                                           value="3">
+                                    <label class="star-rating__ico far fa-star fa-xs" for="star-rating-31"
+                                           title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-21" type="radio" name="rating"
+                                           value="2">
+                                    <label class="star-rating__ico far fa-star fa-xs" for="star-rating-21"
+                                           title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-11" type="radio" name="rating"
+                                           value="1">
+                                    <label class="star-rating__ico far fa-star fa-xs" for="star-rating-11"
+                                           title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            <p class="header__cart_p">1 <span class="header__cart_span">x</span> $250</p>
+                        </div>
+                        <a href="#" class="cart__action circle"><i class="fas fa-times-circle"></i></a>
+
+                    </div>
+
+
+
+                    <div class=" cart_flex cart__block">
+                        <img src="img/cart_img_1.jpg" alt="product">
+                        <div class="cart__product">
+                            <a class="header__cart_a" href="#">Rebox Zane</a>
+                            <div class="star-rating star-rating__flex">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating"
+                                           value="5">
+                                    <label class="star-rating__ico far fa-star  fa-xs" for="star-rating-5"
+                                           title="5 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating"
+                                           value="4">
+                                    <label class="star-rating__ico far fa-star fa-xs" for="star-rating-4"
+                                           title="4 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating"
+                                           value="3">
+                                    <label class="star-rating__ico far fa-star fa-xs" for="star-rating-3"
+                                           title="3 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating"
+                                           value="2">
+                                    <label class="star-rating__ico far fa-star fa-xs" for="star-rating-2"
+                                           title="2 out of 5 stars"></label>
+                                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating"
+                                           value="1">
+                                    <label class="star-rating__ico far fa-star fa-xs" for="star-rating-1"
+                                           title="1 out of 5 stars"></label>
+                                </div>
+                            </div>
+                            <p class="header__cart_p">1 <span class="header__cart_span">x</span> $250</p>
+                        </div>
+                        <a href="#" class="cart__action circle"><i class="fas fa-times-circle"></i></a>
+                    </div>
+
+
+                    <div class="header-cart__flex header-cart__flex_price">
+                        <p>TOTAL</p>
+                        <p>$500.00</p>
+                    </div>
+                    <div class="cart__button">
+                        <a class="cart__button_a" href="checkout.html">
+                            <p>Checkout</p>
+                        </a>
+                    </div>
+
+                    <div class="cart__button">
+                        <a class="cart__button_a" href="shopping_cart.html">
+                            <p>Go to cart</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav class="navigation">
+    <div class="container">
+        <ul class="menu">
+            <li class="menu-list"><a href="#" class="menu-link">Home </a>
+            </li>
+            <li class="menu-list"><a href="#" class="menu-link">Man </a>
+                <div class="drop">
+                    <div class="drop-flex">
+                        <h3 class="drop-h3">Woman</h3>
+                        <ul class="drop-ul">
+                            <li><a href="product.html" class="drop-link">Dresses</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Tops</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Sweaters/Knits</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Jackets/Coats</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Blazers</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Denim</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Leggings/Pants</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Skirts/Shorts</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Accessories </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="drop-flex">
+                        <h3 class="drop-h3">Woman</h3>
+                        <ul class="drop-ul">
+                            <li><a href="product.html" class="drop-link">Dresses</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Tops</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Sweaters/Knits</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Jackets/Coats</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Blazers</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Denim</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Leggings/Pants</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Skirts/Shorts</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Accessories </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="drop-flex">
+                        <h3 class="drop-h3">Woman</h3>
+                        <ul class="drop-ul">
+                            <li><a href="product.html" class="drop-link">Dresses</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Tops</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Sweaters/Knits</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Jackets/Coats</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Blazers</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Denim</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Leggings/Pants</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Skirts/Shorts</a>
+                            </li>
+                            <li><a href="product.html" class="drop-link">Accessories </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="menu-list"><a href="#" class="menu-link">Women </a>
+            </li>
+            <li class="menu-list"><a href="#" class="menu-link">Kids </a>
+            </li>
+            <li class="menu-list"><a href="#" class="menu-link">Accoseriese </a>
+            </li>
+            <li class="menu-list"><a href="#" class="menu-link">Featured </a>
+            </li>
+            <li class="menu-list"><a href="#" class="menu-link">Hot Deals </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="arrivals">
+    <div class="container">
+        <div class="arrival">
+            <div class="arrivals-left">
+                <p>New Arrivals</p>
+            </div>
+            <div class="arrivals-right">
+                <p class="arrivals-right-text"><a class="non-style" href="index.html">Home</a> / <a class="non-style"
+                                                                                                    href="product.html">Men</a> /
+                    <span
+                            class="arrivals-right-pink">New
+                    Arrivals</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="thing-slider">
+    <a  class="thing-slider_a" href="#"><i class="fas fa-angle-left"></i></a>
+    <img src="img/product.jpg" alt="product">
+    <a  class="thing-slider_a" href="#"><i class="fas fa-angle-right"></i></a>
+</div>
+<div class="thing">
+    <div class="container thing__text thing__text_size">
+        <p>WOMEN COLLECTION</p>
+        <h3 class="thing__text thing__text_h3">Moschino Cheap And Chic</h3>
+        <div class="thing_p__flex">
+            <p class="thing_p thing__text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
+        </div>
+        <div class="thing__text_flex">
+            <h5 class="thing__text thing__text_h5" >MATERIAL: <span class="thing__text_color">COTTON</span></h5>
+            <h5 class="thing__text thing__text_h5">DESIGNER: <span class="thing__text_color">BINBURHAN</span></h5>
+        </div>
+        <h4 class="thing__text thing__text_h4">$561</h4>
+        <div class="thing__line"> <div class="thing__line_1"></div></div>
+        <form action="#" class="">
+            <div class="thing__form">
+                <div class="form__flex"><label  class="block__text" for="color">CHOOSE COLOR</label>
+                    <select class="block" id="color">
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                    </select>
+                </div>
+                <div class="form__flex"><label class="block__text" for="size">CHOOSE SIZE</label>
+                    <select  class="block" id="size">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                </div>
+                <div class="form__flex">
+                    <label class="block__text">QUANTITY</label>
+                    <input class="block" type="text" placeholder="2" pattern="^[ 0-9]+$" required>
+                </div>
+            </div>
+            <div class="form">
+
+                <a class="form_button" href="#">
+                    <i class="form_i__flex fas fa-shopping-cart"></i>Add to Cart
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<section>
+    <div class="container">
+        <div class="info">
+            <h3 class="info-header2">
+                you may like also
+            </h3>
+        </div>
+        <article>
+            <div class="product-box">
+                <div class="product-flex ">
+                    <div class="product">
+                        <a href="#">
+                            <img class="product-img" src="img/prodact-1.jpg" alt="">
+                        </a>
+                        <div class="product-text">
+                            <a class="product-text-name" href="single_page.html">Mango People T-shirt</a>
+                            <p class="product-text-price">$52.00</p>
+                        </div>
+                        <a class="product-add" href="#">
+                            <img class="cart_of_add" src="img/cart_of_add.svg" alt="add">Add to Cart</a>
+                    </div>
+                    <div class="product">
+                        <a href="#">
+                            <img class="product-img" src="img/prodact-2.jpg" alt="">
+                        </a>
+                        <div class="product-text">
+                            <a class="product-text-name" href="#">Mango People T-shirt</a>
+                            <p class="product-text-price">$52.00</p>
+                        </div>
+                        <a class="product-add" href="single_page.html">
+                            <img class="cart_of_add" src="img/cart_of_add.svg" alt="add">Add to Cart</a>
+                    </div>
+                    <div class="product">
+                        <a href="#">
+                            <img class="product-img" src="img/prodact-3.jpg" alt="">
+                        </a>
+                        <div class="product-text">
+                            <a class="product-text-name" href="#">Mango People T-shirt</a>
+                            <p class="product-text-price">$52.00</p>
+                        </div>
+                        <a class="product-add" href="single_page.html">
+                            <img class="cart_of_add" src="img/cart_of_add.svg" alt="add">Add to Cart</a>
+                    </div>
+                    <div class="product">
+                        <a href="#">
+                            <img class="product-img" src="img/prodact-4.jpg" alt="">
+                        </a>
+                        <div class="product-text">
+                            <a class="product-text-name" href="#">Mango People T-shirt</a>
+                            <p class="product-text-price">$52.00</p>
+                        </div>
+                        <a class="product-add" href="single_page.html">
+                            <img class="cart_of_add" src="img/cart_of_add.svg" alt="add">Add to Cart</a>
+                    </div>
+                                   </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<div class="down-content">
+    <div class="opasity">
+        <div class="container down-content-flex ">
+            <div class="opinion">
+                <div class="opinion-img">
+                    <img src="img/face.png" alt="">
+                </div>
+
+                <div class="opinion-text">
+                    <p class="opinion-text-1">&laquo;Vestibulum quis porttitor dui! Quisque viverra nunc mi, a&nbsp;pulvinar
+                        purus condimentum a. Aliquam condimentum mattis neque sed pretium&raquo;
+                    </p>
+                    <br>
+                    <p class="name-1">Bin Burhan</p>
+                    <p class="name-2">Dhaka, Bd</p>
+                </div>
+            </div>
+            <div class="subcribe">
+                <div class="subcribe-text">
+                    <h3 class="subcribe-text-h3">Subscribe</h3>
+                    <p class="subcribe-text-p">
+                        FOR OUR NEWLETTER AND PROMOTION
+                    </p>
+                </div>
+                <form class="form" action="#">
+                    <input class="subcribe-form-text" type="text" placeholder="Enter Your Email">
+                    <input class="subcribe-form-button" type="submit" value="Subscribe">
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="blocks">
+            <div class="block-top block-flex">
+                <div class="block-brand">
+                    <a class="block-logo" href="index.html">
+                        <img class="logo-img" src="img/logo.png" alt="logo">BRAN<span class="logo-d">D</span>
+                    </a>
+                    <div class="block-text">
+                        <p class="block-brand-text">Objectively transition extensive data rather than cross functional
+                            solutions. Monotonectally syndicate multidisciplinary materials before go&nbsp;forward
+                            benefits. Intrinsicly syndicate an&nbsp;expanded array of&nbsp;processes and cross-unit
+                            partnerships.
+
+                        </p>
+                        <br>
+                        <br>
+                        <p class="block-brand-text">Efficiently plagiarize 24/365 action items and focused
+                            infomediaries. Distinctively seize superior initiatives for wireless technologies.
+                            Dynamically optimize.</p>
+                    </div>
+
+                </div>
+                <div class="blocks-company ">
+                    <div class="block-company ">
+                        <h3 class="block-h3">COMPANY</h3>
+                        <ul class="block-ul">
+                            <li><a href="index.html" class="block-link">Home </a>
+                            </li>
+                            <li><a href="product.html" class="block-link">Shop</a>
+                            </li>
+                            <li><a href="index.html" class="block-link">About</a>
+                            </li>
+                            <li><a href="index.html" class="block-link">How It Works</a>
+                            </li>
+                            <li><a href="index.html" class="block-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="block-company ">
+                        <h3 class="block-h3">COMPANY</h3>
+                        <ul class="block-ul">
+                            <li><a href="index.html" class="block-link">Home </a>
+                            </li>
+                            <li><a href="product.html" class="block-link">Shop</a>
+                            </li>
+                            <li><a href="index.html" class="block-link">About</a>
+                            </li>
+                            <li><a href="index.html" class="block-link">How It Works</a>
+                            </li>
+                            <li><a href="index.html" class="block-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="block-company ">
+                        <h3 class="block-h3">COMPANY</h3>
+                        <ul class="block-ul">
+                            <li><a href="index.html" class="block-link">Home </a>
+                            </li>
+                            <li><a href="product.html" class="block-link">Shop</a>
+                            </li>
+                            <li><a href="index.html" class="block-link">About</a>
+                            </li>
+                            <li><a href="index.html" class="block-link">How It Works</a>
+                            </li>
+                            <li><a href="index.html" class="block-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="down-footer">
+        <div class="container  down-footer-flex">
+            <div class="down-footer-right">
+                <p class="down-footer-right-text">&copy; 2020 Brand All Rights Reserved.</p>
+            </div>
+            <div class="down-footer-left">
+                <ul class="icons">
+                    <li class="icon-list"><a href="https://www.facebook.com" class="font-icon"><i class="fab fa-facebook-f "></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/?lang=ru" class="font-icon"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li><a href="https://ru.linkedin.com/" class="font-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li><a href="https://www.pinterest.ru/" class="font-icon"><i class="fab fa-pinterest-p"></i></a>
+                    </li>
+                    <li><a href="https://www.google.ru/" class="font-icon"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
